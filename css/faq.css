@@ -17,6 +17,11 @@ a {
   margin: 0 auto;
 }
 
+#accordion .ui-state-active {
+  background-color: lightcoral;
+  border: none;
+}
+
 #faq .inner h2 {
   font-size: calc(1rem + 1vw);
 }
