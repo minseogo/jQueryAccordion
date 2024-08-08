@@ -22,6 +22,11 @@ a {
   border: none;
 }
 
+#tabs .ui-state-active {
+  background-color: lightcoral;
+  border: none;
+}
+
 #faq .inner h2 {
   font-size: calc(1rem + 1vw);
 }
