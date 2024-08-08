@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faq제작을 위한 아코디언 기능 구현하기 4가지</title>
+    <script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+        <!-- 깃 페이지 만들때 : CDN, 폰트 전부 내장하기 / 구글폰트 제외 -->
+    <script src="./js/faq.js"></script>
+    
+    <link rel="stylesheet" href="./css/faq.min.css">
+</head>
+<body>
+    <!-- section#faq>.inner>h2{사전인터뷰}+div.faqwrap>ul>li*4>h3{인터뷰질문}+p{인터뷰내용을 삽입한다.} -->
+    <section id="faq">
+        <div class="inner">
+            <h2>사전인터뷰</h2>
+            <div class="faqwrap">
+                <ul>
+                    <li class="open">
+                        <h3>인터뷰질문</h3>
+                        <p> 인터뷰내용을 삽입한다.<br>
+                            인터뷰내용을 삽입한다.<br>
+                            인터뷰내용을 삽입한다.</p>
+                    </li>
+                    <li>
+                        <h3>인터뷰질문</h3>
+                        <p>인터뷰내용을 삽입한다.</p>
+                    </li>
+                    <li>
+                        <h3>인터뷰질문</h3>
+                        <p>인터뷰내용을 삽입한다.</p>
+                    </li>
+                    <li>
+                        <h3>인터뷰질문</h3>
+                        <p>인터뷰내용을 삽입한다.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, li {list-style: none;}
+a{
+    text-decoration: none;
+    color: black;
+}
+.inner{
+    max-width: 900px;
+    margin: 0 auto;
+}
+#faq{
+    .inner{
+        h2{
+            font-size: calc(1rem + 1vw); // 반응형처리
+        }
+        .faqwrap{
+            ul{
+                li{
+                    &.open{
+                        h3{
+                            background-color: lightcoral;
+                        }
+                        p{
+                            max-height: 400px;
+                        }
+                    }
+                        h3{
+                            font-size: 1.2rem;
+                        }
+                        p{
+                            padding: 0 1rem;
+                            line-height: 1.8;
+                            max-height: 0;
+                            overflow: hidden;
+                            transition: 0.5s;
+                            &:before, &:after{
+                                content: "";
+                                display: block;
+                                height: 1rem;
+                            }
+                        }
+                }
+            }
+        }
+    }
+}
+       
